@@ -6,7 +6,6 @@ body{
 section{
 
     background-color: white;
-    border: solid black 1px;
 }
 
 .info{
@@ -107,6 +106,14 @@ p{
     padding: 80px;
 }
 
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+
 .headshot {
     width: 300px;
     border-radius: 150px;
@@ -120,7 +127,7 @@ p{
 .project-card {
     width: 300px;
     height: 500px;
-    border: 1px solid black;
+   box-shadow: 5px 5px 20px rgb(121, 121, 121);
 
 }
 
