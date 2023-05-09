@@ -4,7 +4,7 @@ body{
 }
 
 section{
-    height: 500px;
+
     background-color: white;
     border: solid black 1px;
 }
@@ -43,6 +43,10 @@ li{
 h1{ 
     font-size: 90px;
     margin: 0;
+}
+
+h2{
+    font-size: 50px;
 }
 
 p{
@@ -96,4 +100,22 @@ p{
 .social{
     margin: 20px;
 }
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+
 
