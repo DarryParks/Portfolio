@@ -1,3 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
 section{
     height: 500px;
     background-color: white;
@@ -45,8 +50,8 @@ h1{
 
 .button{
     width: 200px;
-    height: 80px;
-    border-radius: 40px;
+    height: 60px;
+    border-radius: 30px;
     background-color: coral;
     text-align: center;
 }
