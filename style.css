@@ -15,3 +15,18 @@ footer{
     height: 500px;
     background-color: black;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+}
